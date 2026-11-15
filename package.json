@@ -1,5 +1,5 @@
 {
-  "name": "la-pinga-mia",
+  "name": "kmcero-app",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
@@ -12,6 +12,7 @@
   "dependencies": {
     "@expo/vector-icons": "^15.1.1",
     "expo": "~58.0.25",
+    "expo-dev-client": "~58.0.20",
     "expo-font": "~58.0.12",
     "expo-status-bar": "~58.0.5",
     "react": "19.3.0",

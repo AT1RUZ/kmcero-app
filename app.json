@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "KM CERO",
-    "slug": "la-pinga-mia",
+    "slug": "kmcero-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,13 +21,19 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "kmcero_client.com"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c8e01975-a7ca-4a56-b19d-a016da92167d"
+      }
+    }
   }
 }
